@@ -1,11 +1,7 @@
 import cv2
 import time
 
-cp0 = cv2.VideoCapture(0)
-
-frame_id = 0
-sleep = 0
-delayratio = 10
+cp0 = cv2.VideoCapture(1)
 
 while 1:
         ret0, frame0 = cp0.read()
